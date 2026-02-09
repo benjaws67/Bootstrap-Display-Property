@@ -1,0 +1,12 @@
+.md-visible {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .md-visible {
+        visibility: visible;
+        color:blue;
+    }
+}
+
+@media (min-width: 1200px) {}
